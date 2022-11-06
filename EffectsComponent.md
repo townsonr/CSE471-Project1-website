@@ -10,6 +10,74 @@ Each effect has a few unique parameters that can be specified in the .score file
 
 ## Generated Audio
 [effects_sample_output.zip](https://github.com/townsonr/CSE471-Project1-website/files/9945094/effects_sample_output.zip)
+  
+## Score File
+```
+<?xml version="1.0" encoding="utf-8"?>
+<score bpm="194" beatspermeasure="4">
+	<instrument instrument="Piano" send0="1.0" send1="0.2" send2="0.2" send3="0.2" send4="0.2">
+		<note measure="1" beat="1" duration="3" note="A4"/>
+		<note measure="1" beat="4" duration="5" note="E4"/>
+		<note measure="3" beat="1" duration="3" note="B4"/>
+		<note measure="3" beat="4" duration="5" note="C#4"/>
+
+		<note measure="5" beat="1" duration="3" note="A4"/>
+		<note measure="5" beat="4" duration="5" note="E4"/>
+		<note measure="7" beat="1" duration="3" note="B4"/>
+		<note measure="7" beat="4" duration="5" note="C#4"/>
+
+		<note measure="9" beat="1" duration="3" note="A4"/>
+		<note measure="9" beat="4" duration="5" note="E4"/>
+		<note measure="11" beat="1" duration="3" note="B4"/>
+		<note measure="11" beat="4" duration="5" note="C#4"/>
+
+		<note measure="13" beat="1" duration="3" note="A4"/>
+		<note measure="13" beat="4" duration="5" note="E4"/>
+		<note measure="15" beat="1" duration="3" note="B4"/>
+		<note measure="15" beat="4" duration="5" note="C#4"/>
+
+		<note measure="17" beat="1" duration="3" note="A4"/>
+		<note measure="17" beat="4" duration="5" note="E4"/>
+		<note measure="19" beat="1" duration="3" note="B4"/>
+		<note measure="19" beat="4" duration="5" note="C#4"/>
+		
+		<note measure="1" beat="1" duration="3" note="A4"/>
+		<note measure="1" beat="4" duration="5" note="E4"/>
+		<note measure="3" beat="1" duration="3" note="B4"/>
+		<note measure="3" beat="4" duration="5" note="C#4"/>
+	</instrument>
+
+	<instrument instrument="chorus">
+		<note measure="5" beat="1" duration="3" note="A4" gain="1.0"/>
+		<note measure="5" beat="4" duration="5" note="E4" gain="1.0"/>
+		<note measure="7" beat="1" duration="3" note="B4" gain="1.0"/>
+		<note measure="7" beat="4" duration="5" note="C#4" gain="1.0"/>
+	</instrument>
+
+	<instrument instrument="noise">
+		<note measure="9" beat="1" duration="3" note="A4" gain="1.0"/>
+		<note measure="9" beat="4" duration="5" note="E4" gain="1.0"/>
+		<note measure="11" beat="1" duration="3" note="B4" gain="1.0"/>
+		<note measure="11" beat="4" duration="5" note="C#4" gain="1.0"/>
+	</instrument>
+
+	<instrument instrument="compress">
+		<note measure="13" beat="1" duration="3" note="A4" gain="1.0"/>
+		<note measure="13" beat="4" duration="5" note="E4" gain="1.0"/>
+		<note measure="15" beat="1" duration="3" note="B4" gain="1.0"/>
+		<note measure="15" beat="4" duration="5" note="C#4" gain="1.0"/>
+	</instrument>
+
+	<instrument instrument="reverb">
+		<note measure="17" beat="1" duration="3" note="A4" gain="1.0"/>
+		<note measure="17" beat="4" duration="5" note="E4" gain="1.0"/>
+		<note measure="19" beat="1" duration="3" note="B4" gain="1.0"/>
+		<note measure="19" beat="4" duration="5" note="C#4" gain="1.0"/>
+	</instrument>
+
+</score>
+```
+
 
 
 ## Grading elements
