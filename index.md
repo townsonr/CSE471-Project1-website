@@ -16,8 +16,8 @@ Audio file (as .wav): [sample_output.zip](https://github.com/townsonr/CSE471-Pro
 ```
 <score bpm="120" beatspermeasure="2">
     <instrument instrument="Piano" send0="1.0" send1="0.0" send2="0.0" send3="0.0" send4="0.0">
-        <note measure="1" beat="2" duration="0.33" note="F4"/>
-        <note measure="1" beat="2.33" duration="0.33" note="G4"/>
+        <note measure="1" beat="2" duration="0.33" note="F4" pedal="true" speed=".01"/>
+        <note measure="1" beat="2.33" duration="0.33" note="G4" pedal="false" speed=".1"/>
     </instrument>
     <instrument instrument="chorus">
         <note measure="1" beat="2.33" wet="0.7" gain="1.0" pitchModulation="50" />
