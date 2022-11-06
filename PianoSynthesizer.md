@@ -23,6 +23,6 @@ Owner: Zane Aridi
 
 35 - Basic dynamics ✓
 
-40 - Pedal noise ✓
+40 - Pedal noise ~
 
 50 - Advanced dynamics ✓
