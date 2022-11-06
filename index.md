@@ -4,9 +4,12 @@ Group members: Rachel Townson and Zane Aridi
 
 ## Music Selection
 
-Title:
+Title: Anti Hero
 
-Score file: 
+Score file (as .txt): [sample_txt.txt](https://github.com/townsonr/CSE471-Project1-website/files/9945066/sample_txt.txt)
+
+Audio file (as .wav): [sample_output.zip](https://github.com/townsonr/CSE471-Project1-website/files/9945071/sample_output.zip)
+
 
 ## Score file format
 
