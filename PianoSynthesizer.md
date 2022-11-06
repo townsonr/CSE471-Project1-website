@@ -15,8 +15,8 @@ Owner: Zane Aridi
 
 Score:
 <xml>
-  <score bpm="60" beatspermeasure="4">
-       <instrument instrument="Piano" send0="1.0" send1="0.0" send2="0.0" send3="0.0" send4="0.0">
+  score bpm="60" beatspermeasure="4">
+       instrument instrument="Piano" send0="1.0" send1="0.0" send2="0.0" send3="0.0" send4="0.0">
             <note measure="1" beat="1" duration=".5" note="G5" speed=".02"/>
             <note measure="1" beat="1.5" duration=".5" note="E5" speed="0.04"/>
 
@@ -47,7 +47,7 @@ Score:
             <note measure="3" beat="4" duration="1" note="D5" pedal="true" speed="0.01"/>
        </instrument>
   </score>
-<xml/>
+</xml>
 ## Grading elements
 
 10 - Plays piano notes ✓
